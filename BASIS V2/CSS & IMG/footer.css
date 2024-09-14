@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+footer{
+    height: 50w;
+    background-color: burlywood;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.fer-nav-1 ul{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fer-nav-1 li img{
+    width: 3vw;
+    margin: 20px;
+}
+.fer-nav-1 a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.fer-nav-1{
+    height: 10vw;
+}
+
+.fer-nav-2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    height: 25vw;
+}
+.fer-nav-2-div-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fer-nav-2-div-2{
+    padding: 20px;
+}
+.fer-nav-2-div-2 li{
+    list-style-type: none;
+    padding: 5px;
+}
+.fer-nav-2-div-2 a{
+    color: rgba(0,0,0, .5);
+    text-decoration: none;
+}
+.fer-nav-2-div-2 a:hover{
+    color: rgba(0,0,0, .7);
+    text-decoration: underline;
+}
+.fer-nav-2-div-2 h3{
+    padding: 11px;
+}
+
+.fer-div-1{
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fer-div-1 p{
+    font-size: 13px;
+}
+li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+ul{
+    margin: 35px;
+}
