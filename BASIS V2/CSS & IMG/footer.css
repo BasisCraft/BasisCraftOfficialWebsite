@@ -4,7 +4,7 @@
 }
 footer{
     height: 50w;
-    background-color: burlywood;
+    background: linear-gradient(0deg, #7a7a7a00 0,#d39f6f 100%) ;;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,9 +12,10 @@ footer{
 }
 .fer-nav-1 ul{
     display: flex;
-    display: flex;
     align-items: center;
     justify-content: center;
+    list-style-type: none;
+    margin: 3vw;
 }
 .fer-nav-1 li img{
     width: 3vw;
@@ -46,7 +47,14 @@ footer{
 }
 .fer-nav-2-div-2 li{
     list-style-type: none;
-    padding: 5px;
+    padding: 10px;
+}
+.fer-nav-2-div-2 ul{
+    margin: 2vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .fer-nav-2-div-2 a{
     color: rgba(0,0,0, .5);
@@ -69,11 +77,42 @@ footer{
 .fer-div-1 p{
     font-size: 13px;
 }
-li{
+
+* {
+    -moz-user-select:none; /* Firefox私有属性 */
+    -webkit-user-select:none; /* WebKit内核私有属性 */
+    -ms-user-select:none; /* IE私有属性(IE10及以后) */
+    -khtml-user-select:none; /* KHTML内核私有属性 */
+    -o-user-select:none; /* Opera私有属性 */
+    user-select:none; /* CSS3属性 */
+  }
+
+@media screen and (max-width:765px) {  
+    footer{
+        height: 500vw;
+        width: 100%;
+    }
+    .fer-nav-2-div-1{
+        flex-direction: column;
+        height: 400vw;
+        width: 100%;
+    }
+  }
+
+  .fer-nav-1 a {
     display: flex;
-    align-items: center;
     justify-content: center;
+    align-items: center;
+    min-width: 200px;
+    border: 0;
+    font-size: 1rem;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s;
 }
-ul{
-    margin: 35px;
+.fer-nav-1 a:hover {
+    transform: scale(1.2);
+}
+.fer-nav-1 a:active {
+    transform: scale(0.98);
 }
